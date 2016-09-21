@@ -12,7 +12,11 @@ class App extends Component {
   render () {
     return (
       <div>
+        <About />
+        <Portfolio />
         <Heading name={this.props.name} role={this.props.role} />
+        <Blog />
+        <Contact />
       </div>
     )
   }
