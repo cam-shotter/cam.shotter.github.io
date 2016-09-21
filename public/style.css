@@ -1,3 +1,9 @@
-main {
+html {
   text-align: center;
+  color: #E8E8E8;
+  background-color: #171518;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
 }

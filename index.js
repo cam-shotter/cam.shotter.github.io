@@ -1,6 +1,11 @@
 import React from 'react'
-import { render } from 'react-dom'
+import ReactDOM, { render } from 'react-dom'
 import App from './client/components/app'
 
-render(<App name="Cam's Personal Webpage" />, document.querySelector('main'))
-console.log('welcome to cams thing')
+const INITIAL_DATA = {
+  name: "Cameron Shotter",
+  role: "Developer, Creator of Awesome Things"
+}
+
+console.log("Initial data ", INITIAL_DATA)
+ReactDOM.render(<App {...INITIAL_DATA} />, document.querySelector('main'))
