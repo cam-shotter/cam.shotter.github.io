@@ -4,8 +4,7 @@ import App from './client/components/app'
 
 const INITIAL_DATA = {
   name: "Cameron Shotter",
-  role: "Developer, Creator of Awesome Things"
+  role: "Web Developer & Creator of Awesome Things_"
 }
 
-console.log("Initial data ", INITIAL_DATA)
 ReactDOM.render(<App {...INITIAL_DATA} />, document.querySelector('main'))

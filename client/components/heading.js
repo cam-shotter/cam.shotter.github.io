@@ -4,7 +4,7 @@ class Heading extends Component {
 
   render () {
     return (
-      <div>
+      <div className="heading">
         <h1>{this.props.name}</h1>
         <h2>{this.props.role}</h2>
       </div>

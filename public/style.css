@@ -5,5 +5,11 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
-h1 {
+
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
