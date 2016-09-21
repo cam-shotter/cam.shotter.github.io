@@ -1,22 +1,22 @@
 import React, { Component } from 'react'
 
+import Link from './link'
+import About from './about'
+import Portfolio from './portfolio'
 import Heading from './heading'
+import Blog from './blog'
+import Contact from './contact'
 
 class App extends Component {
-
-  constructor (props) {
-    super(props)
-
-  }
 
   render () {
     return (
       <div>
-        <About />
-        <Portfolio />
+        <Link linkName="About" />
+        <Link linkName="Blog" />
         <Heading name={this.props.name} role={this.props.role} />
-        <Blog />
-        <Contact />
+        <Link linkName="Portfolio" />
+        <Link linkName="Contact" />
       </div>
     )
   }

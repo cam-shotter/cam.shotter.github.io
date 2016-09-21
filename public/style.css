@@ -5,11 +5,37 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .heading {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.About {
+  position: absolute;
+}
+
+.Blog {
+  position: absolute;
+  left: 100%;
+  transform: translate(-100%, 0%);
+}
+
+.Portfolio {
+  position: absolute;
+  top: 100%;
+  transform: translate(0%, -100%);
+}
+
+.Contact {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -100%);
 }
