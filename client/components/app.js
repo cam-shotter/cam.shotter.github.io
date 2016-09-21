@@ -12,7 +12,7 @@ class App extends Component {
   render () {
     return (
       <div>
-        {this.props.name}
+        <Heading name={this.props.name} role={this.props.role} />
       </div>
     )
   }

@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Heading = () => {
+class Heading extends Component {
 
-  return (
-    <div>
-      <h1>Welcome {this.props.initialState.name}</h1>
-      <p>Working</p>
-    </div>
-  )
+  render () {
+    return (
+      <div>
+        <h1>{this.props.name}</h1>
+        <h2>{this.props.role}</h2>
+      </div>
+    )
+  }
 }
 
 export default Heading
