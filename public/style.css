@@ -2,6 +2,10 @@ html {
   text-align: center;
   color: #E8E8E8;
   background-color: #171518;
+  background-image:
+    linear-gradient(
+      #171518, black
+    );
   font-family: 'Lato', sans-serif;
 }
 
@@ -19,22 +23,26 @@ a {
 
 .About {
   position: absolute;
+  padding: 1%;
 }
 
 .Blog {
   position: absolute;
+  padding: 1%;
   left: 100%;
   transform: translate(-100%, 0%);
 }
 
 .Portfolio {
   position: absolute;
+  padding: 1%;
   top: 100%;
   transform: translate(0%, -100%);
 }
 
 .Contact {
   position: absolute;
+  padding: 1%;
   top: 100%;
   left: 100%;
   transform: translate(-100%, -100%);
